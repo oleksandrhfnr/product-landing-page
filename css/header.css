@@ -1,0 +1,15 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.container__menu {
+    padding-right: 30px;
+}
+.navigation {
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+}

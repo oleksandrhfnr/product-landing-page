@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Original Trombones</title>
 </head>
 
@@ -15,9 +16,9 @@
                 <img id="header__img" width="300" src="img/header/trombones.png" alt="Trombones">
             </div>
             <div class="container__menu">
-                <a href="#features">Features</a>
-                <a href="#how__it__works">How it works</a>
-                <a href="#pricing">Pricing</a>
+                <a href="#features" class="navigation">Features</a>
+                <a href="#how__it__works" class="navigation">How it works</a>
+                <a href="#pricing" class="navigation">Pricing</a>
             </div>
         </div>
     </header>
@@ -28,60 +29,58 @@
                 <label for="email">
                     <input class="email" type="email" name="email" placeholder="Enter your email!">
                 </label>
-                <label for="submit">
-                    <input type="submit" name="submit">
-                </label>
+                <button class="btn">Get select</button>
             </form>
         </section>
-        <div id="features">
-            <section class="premium__materials">
-                <img src="" alt="fire">
+        <div id="features" class="features_container">
+            <section class="premium__materials features">
+                <img src="img/main/fire.png" alt="fire" width="50">
                 <h2>Premium Materials</h2>
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                <p class="features__text">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
                     your purchase.</p>
             </section>
-            <section class="fast_shipping">
-                <img src="" alt="truck">
+            <section class="fast_shipping features">
+                <img src="img/main/truck.png" alt="truck" width="50">
                 <h2>Fast Shipping</h2>
-                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                <p class="features__text">We make sure you recieve your trombone as soon as we have finished making it. We also provide free
                     returns if you are not satisfied.</p>
             </section>
-            <section class="quality__assurance">
-                <img src="" alt="battery">
+            <section class="quality__assurance features">
+                <img src="img/main/battery.png" alt="battery" width="50">
                 <h2>Quality Assurance</h2>
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
+                <p class="features__text">For every purchase you make, we will ensure there are no damages or faults and we will check and test
                     the pitch of your instrument.</p>
             </section>
         </div>
         <div id="how__it__works">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+            <iframe width="560" height="315" class="video__frame" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </div>
         <div id="pricing">
-            <div class="tenor__trombone">
+            <div class="tenor__trombone product">
                 <h3>TENOR TROMBONE</h3>
-                <span class="price">$600</span>
+                <span class="product__price">$600</span>
                 <p class="text">Lorem ipsum.
                     Lorem ipsum.
                     Lorem ipsum dolor.
                     Lorem ipsum.</p>
                     <button class="select">Select</button>
             </div>
-            <div class="bass_trombone">
+            <div class="bass_trombone product">
                 <h3>BASS TROMBONE</h3>
-                <span class="price">$900</span>
+                <span class="product__price">$900</span>
                 <p class="text">Lorem ipsum.
                     Lorem ipsum.
                     Lorem ipsum dolor.
                     Lorem ipsum.</p>
                    <button class="select">Select</button>
             </div>
-            <div class="valve_trombone">
+            <div class="valve_trombone product">
                 <h3>VALVE TROMBONE</h3>
-                <span class="price">$1200</span>
+                <span class="product__price">$1200</span>
                 <p class="text">Plays similar to a Trumpet
                     Great for Jazz Bands
                     Lorem ipsum dolor.

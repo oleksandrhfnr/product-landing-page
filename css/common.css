@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #eee;
+}
 :root {
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;

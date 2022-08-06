@@ -1,0 +1,14 @@
+.footer__container {
+    margin-top: 50px;
+    width: 1200px;
+    height: 100px;
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.footer__link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}

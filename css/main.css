@@ -22,6 +22,12 @@
     margin: 0 auto;
 }
 
+.btn:hover {
+    background-color: #ffae00;
+    border: none;
+
+}
+
 .features_container {
     margin-left: 200px;
 
@@ -60,4 +66,32 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.product__header {
+    background-color: gainsboro;
+    padding: 10px 60px;
+}
+
+.product__price {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 20px 0 20px;
+}
+
+.select {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.select:hover {
+    background-color: #ffae00;
+    border: none;
 }
